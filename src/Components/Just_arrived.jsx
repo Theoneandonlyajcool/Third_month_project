@@ -79,7 +79,7 @@ const Most_popular = () => {
       <div className="mP_child">
         <div className="Mp_heading">
           <div>
-            <h1>Most popular Products</h1>
+            <h1>Just arrived</h1>
           </div>
 
           {/* View categories */}

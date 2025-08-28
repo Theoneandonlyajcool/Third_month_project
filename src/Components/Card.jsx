@@ -1,9 +1,12 @@
 import "../Styles/Card.css";
 import Card_bg_image from "/Images/48_product-thumb-2.png";
 import { FaRegHeart } from "react-icons/fa";
+import { useState } from "react";
 import { FaStar } from "react-icons/fa6";
 
 const Card = (props) => {
+  const [counter, SetCounter] = useState(1);
+
   const { Card_products } = props;
   console.log(Card_products);
   return (
@@ -18,9 +21,11 @@ const Card = (props) => {
           }}
         >
           {/* Discount */}
-          <div className="Card_discount">
-            <p>-15%</p>
-          </div>
+          {Card_products.discount && (
+            <div className="Card_discount">
+              <p>-15%</p>
+            </div>
+          )}
 
           {/* heart icon */}
           <div className="Heart_icon_holder">
@@ -55,12 +60,28 @@ const Card = (props) => {
             {/* Sub and add btn */}
             <div className="sub_add_cont">
               {/* Sub */}
-              <div className="Counter_btn">
+              <div
+                className="Counter_btn"
+                onClick={() => {
+                  if (counter <= 0) {
+                  } else {
+                    SetCounter(counter - 1);
+                  }
+                }}
+              >
                 <p>-</p>
               </div>
               {/* Counter */}
-              <p>1</p>
-              <div className="Counter_btn">
+              <p>{counter}</p>
+              <div
+                className="Counter_btn"
+                onClick={() => {
+                  if (counter >= 0) {
+                    SetCounter(counter + 1);
+                  } else {
+                  }
+                }}
+              >
                 <p>+</p>
               </div>
             </div>

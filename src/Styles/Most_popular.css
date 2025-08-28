@@ -1,5 +1,5 @@
 .mP_cont {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .mP_child {
@@ -18,12 +18,75 @@
   .mP_child {
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .Card {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     justify-content: center;
   }
+}
+
+.Mp_heading {
+  /* border: 2px solid gold; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.View_cat_cont {
+  /* border: 2px solid gray; */
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view_cat_child {
+  /* border: 2px solid gray; */
+  width: 55%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 5px;
+  align-items: end;
+  color: gray;
+}
+
+.long_arr {
+  font-size: 1rem;
+}
+
+.view_cat_child h3 {
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.view_cat_child h3:hover {
+  color: rgb(38, 38, 38);
+}
+
+.add_sub {
+  /* border: 2px solid black; */
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Chg_pro_arr {
+  border: 1px solid gray;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.Chg_pro_arr:hover {
+  background-color: goldenrod;
+  color: white;
 }
