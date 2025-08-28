@@ -1,0 +1,29 @@
+.mP_cont {
+  margin-top: 2rem;
+}
+
+.mP_child {
+  display: flex;
+  flex-direction: column;
+}
+
+.Card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 665px) {
+  .mP_child {
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+
+  .Card {
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+  }
+}

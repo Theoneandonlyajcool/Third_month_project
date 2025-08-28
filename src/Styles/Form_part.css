@@ -1,0 +1,43 @@
+.Form_cont {
+  background-color: #e6f3fb;
+  height: 110vh;
+  border-radius: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Form_text {
+  width: 50%;
+  border: 2px solid green;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  & h1 {
+    width: 70%;
+    font-size: 3.5rem;
+    border: 2px solid orange;
+    margin-bottom: 1rem;
+
+    & span {
+      color: orange;
+      width: 100%;
+      border: 2px solid red;
+    }
+  }
+
+  & p {
+    width: 70%;
+    color: gray;
+    font-size: 1.2rem;
+  }
+}
+
+form {
+  width: 50%;
+  height: 100%;
+}
