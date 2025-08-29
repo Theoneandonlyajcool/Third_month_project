@@ -1,0 +1,21 @@
+.ProductCard {
+  width: 18rem;
+  height: 30vh;
+  /* border: 2px solid black; */
+  /* margin: 0.5rem; */
+  margin-top: 4rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.ProductCard img {
+  width: 40px;
+}
+.ProductCard p {
+  font-size: 20px;
+}

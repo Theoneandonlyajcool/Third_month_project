@@ -4,7 +4,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa6";
 
-const Card = (props) => {
+const Every_card = (props) => {
   const [counter, SetCounter] = useState(1);
 
   const { Card_products } = props;
@@ -97,4 +97,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default Every_card;

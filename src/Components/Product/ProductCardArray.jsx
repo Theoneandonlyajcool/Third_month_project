@@ -1,0 +1,77 @@
+const products = [
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-bananas.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+        discount: "-30%",
+    },
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-biscuits.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+         discount: "-30%",
+    },
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-cucumber.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-milk.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-bananas.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "https://themewagon.github.io/FoodMart/images/thumb-biscuits.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "/Images/44_thumb-bananas.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "/Images/44_thumb-bananas.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+    {
+        img: "/Images/28_thumb-tomatoes.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+        discount: "-15%",
+    },
+    {
+        img: "/Images/48_product-thumb-2.png",
+        title: "Sunstar Fresh Melon Juice",
+        unit: "1 UNIT",
+        rating: 4.5,
+        price: 18.0,
+    },
+];
+
+export default products;

@@ -1,11 +1,10 @@
-import "../Styles/Most_popular.css";
-import Every_card from "./Card";
+import Every_card from ".././Card";
+import "../../Styles/Most_popular.css";
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
-
-const Most_popular = () => {
+const Best_selling = () => {
   const [sliceStartIdx, SetsliceStartIdx] = useState(0);
   const [sliceEndIdx, SetsliceEndIdx] = useState(4);
 
@@ -79,7 +78,7 @@ const Most_popular = () => {
       <div className="mP_child">
         <div className="Mp_heading">
           <div>
-            <h1>Just arrived</h1>
+            <h1>Best Selling</h1>
           </div>
 
           {/* View categories */}
@@ -128,4 +127,4 @@ const Most_popular = () => {
   );
 };
 
-export default Most_popular;
+export default Best_selling;

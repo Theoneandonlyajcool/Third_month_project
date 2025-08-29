@@ -1,5 +1,5 @@
 import "../Styles/Most_popular.css";
-import Card from "./Card";
+import Every_card from "./Card";
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -71,7 +71,7 @@ const Most_popular = () => {
   ];
 
   const mapped = products.slice(sliceStartIdx, sliceEndIdx).map((ele, idx) => {
-    return <Card Card_products={ele} key={idx} />;
+    return <Every_card Card_products={ele} key={idx} />;
   });
 
   return (

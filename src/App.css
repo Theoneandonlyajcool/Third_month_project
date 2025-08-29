@@ -5,7 +5,7 @@
 }
 
 .App_cont {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .App_child {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   max-width: 98%;
 }
