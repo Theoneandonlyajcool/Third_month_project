@@ -12,6 +12,21 @@
   font-family: "Open Sans", sans-serif;
   position: relative;
 }
+
+.menudrop_bg {
+  background-color: rgba(56, 56, 56, 0.69);
+  position: fixed;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  width: 100%;
+  top: 0;
+  /* transition: all ease-in-out 3s; */
+  /* backdrop-filter: 1rem; */
+  left: 0;
+  z-index: 1000;
+  height: 100vh;
+}
+
 .menuDrop {
   position: absolute;
   width: 100%;
@@ -64,8 +79,8 @@
 }
 .inputs {
   display: flex;
-  width: 43%;
-  height: 57%;
+  width: 47%;
+  height: 60%;
   border-radius: 15px;
   background-color: #f8f8f8;
   display: flex;
@@ -80,8 +95,11 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
   width: 160px;
-  height: 40px;
+  height: 30px;
+  color: rgb(67, 67, 67);
+  font-weight: bold;
   line-height: 24px;
   background-color: inherit;
   /* background-color: chartreuse; */
@@ -93,7 +111,7 @@
   /* border: 1px solid #e6f3fa; */
 }
 .firstCategory:focus {
-  border: 3px solid #59aad5;
+  border: 2px solid #59aad5;
 }
 .option {
   border: none;
@@ -187,7 +205,8 @@
 }
 .cartDrop {
   position: absolute;
-  width: 27%;
+  width: 30%;
+  padding: 0.8rem 1rem;
   height: 60%;
   min-height: 712px;
   background-color: rgb(255, 255, 255);
@@ -195,8 +214,9 @@
   right: 0;
   color: black;
   display: flex;
+  gap: 10px;
   flex-direction: column;
-  padding: 10px;
+
   /* justify-content: center; */
 }
 .markSec {
@@ -216,9 +236,14 @@
   margin-bottom: 13px;
 }
 .cart-items {
-  width: 100%;
+  width: 95%;
+  align-self: center;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 60px;
-  padding: 10px 0;
+  /* padding: 10px 0; */
   border: 1px solid #eee;
 }
 .cart-items h5 {
@@ -256,7 +281,8 @@
   font-family: Nunito, sans-serif;
 }
 .cart-itemss {
-  width: 100%;
+  width: 95%;
+  align-self: center;
   height: 40px;
   padding: 10px 0;
   border: 1px solid #eee;
@@ -333,4 +359,31 @@
   .menu-icon {
     display: flex;
   }
+}
+
+.check_out_btn_holder {
+  /* border: 2px solid orange; */
+  width: 100%;
+  height: 6%;
+}
+
+.check_out_btn {
+  background-color: #ffc640;
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all ease-in-out 0.5s;
+}
+
+.check_out_btn:hover {
+  /* background-color: #f5c75c; */
+  transform: scale(1.05);
 }
