@@ -48,10 +48,7 @@ const Header = () => {
           )}
 
           <div className="logo">
-            <img
-              src="https://themewagon.github.io/FoodMart/images/logo.png"
-              alt=""
-            />
+            <img src="/Images/36_logo.png" alt="" />
           </div>
           <div className="inputs">
             <div className="firstCategory.">

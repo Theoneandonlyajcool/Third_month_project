@@ -1,0 +1,121 @@
+.Ac_card_cont {
+  /* border: 2px solid green; */
+  height: 24rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 18rem;
+  transition: all ease-in-out 0.5s;
+}
+.Ac_card_cont:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Ac_card_child {
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 94%;
+  height: 100%;
+  max-height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Ac_card_image_cont {
+  /* border: 2px solid black; */
+  width: 100%;
+  position: relative;
+  height: 62%;
+  background-color: #f9f9f9;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
+
+.Ac_card_discount_holder {
+  background-color: #a3be4c;
+  color: white;
+  position: absolute;
+  width: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10px;
+  left: 4px;
+  height: 1.5rem;
+  border-radius: 0.4rem;
+}
+
+.Ac_card_heart_icon_holder {
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  border: 1px solid gray;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  border-radius: 50%;
+  transition: all ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+.Ac_card_heart_icon_holder:hover {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+
+.Ac_heart_icon {
+  font-size: 2rem;
+}
+
+.Ac_card_content_holder {
+  height: 35%;
+  /* border: 2px solid orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Ac_card_unit_rating {
+  /* border: 2px solid fuchsia; */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Ac_card_rating {
+  display: flex;
+  /* border: 2px solid hotpink; */
+  gap: 10px;
+  font-weight: bold;
+}
+
+.Ac_card_star {
+  color: gold;
+}
+
+.Ac_card_counter_part {
+  /* border: 2px solid greenyellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Ac_card_counter_holder {
+  display: flex;
+  /* border: 2px solid black; */
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+}

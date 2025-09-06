@@ -83,7 +83,6 @@ const Category = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}

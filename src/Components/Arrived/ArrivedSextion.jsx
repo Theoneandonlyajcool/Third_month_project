@@ -83,7 +83,6 @@ const ArrivedSextion = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          display: "flex",
           justifyContent: "space-between",
           // alignItems: "center",
         }}

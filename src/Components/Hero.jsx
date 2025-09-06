@@ -6,7 +6,7 @@ const Hero = (props) => {
     <div
       className="Hero_cont"
       style={{
-        backgroundImage: "url(public/Images/49_background-pattern.jpg.jpeg)",
+        backgroundImage: "url(/Images/49_background-pattern.jpg.jpeg)",
         backgroundRepeat: "no-repeat",
         backgroundSize: "contain",
         padding: ".5rem",
@@ -16,7 +16,7 @@ const Hero = (props) => {
       <div
         className="big_img"
         style={{
-          backgroundImage: `url(${"public/Images/30_product-thumb-1.png"})`,
+          backgroundImage: `url(${"/Images/30_product-thumb-1.png"})`,
         }}
       >
         <div className="big_img_child">

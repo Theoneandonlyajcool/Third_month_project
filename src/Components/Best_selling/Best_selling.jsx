@@ -1,4 +1,5 @@
-import Every_card from ".././Card";
+// import Every_card from ".././Card";
+import Another_Card from "../Another_Card/Another_Card";
 import "../../Styles/Most_popular.css";
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -70,7 +71,7 @@ const Best_selling = () => {
   ];
 
   const mapped = products.slice(sliceStartIdx, sliceEndIdx).map((ele, idx) => {
-    return <Every_card Card_products={ele} key={idx} />;
+    return <Another_Card Card_products={ele} key={idx} />;
   });
 
   return (
